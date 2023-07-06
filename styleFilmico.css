@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(156, 156, 156, 0.355);
+    overflow: auto;
+}
+
+.container {
+    background: linear-gradient(to bottom right, #02345e, #74278cce);
+    border-radius: 10px;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 25vw;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh; /* Esempio di altezza del 80% dell'altezza dello schermo */
+    color:white
+}
+
+
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 8vh; /* Esempio di altezza del 5% dell'altezza del contenitore */
+}
+
+#title-div {
+    font-size: 3vh; /* Esempio di altezza del 3% dell'altezza del contenitore */
+}
+
+#imgMoviePoster {
+    max-width: 100%;
+    height: auto;
+    max-height: 45vh; /* Esempio di altezza massima del 45% dell'altezza del contenitore */
+}
+
+#imgGenreDiv {
+    display: flex;
+    gap: 0%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto; /* Imposta l'altezza su "auto" per adattarsi al contenuto */
+}
+
+#genre-div {
+    flex-grow: 1; /* Permette al div di espandersi per riempire lo spazio disponibile */
+    font-size: 120%;
+}
+
+.btn-X-div,
+.btn-Cuore-div {
+    max-width: 100%;
+    height: auto;
+}
+

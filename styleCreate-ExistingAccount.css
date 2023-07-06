@@ -1,0 +1,116 @@
+html {
+    height: 300%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(101, 217, 255), rgb(0, 53, 87));
+}
+
+p{
+    color: red;
+    font-size: 18px;
+}
+
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.login-box .user-box{
+    position: relative;
+}
+
+.color-box{
+    width: 200px;
+}
+
+.color-box label{
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(255,255,255);
+}
+
+select{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+select option{
+    color: black;
+    background-color: white;
+}
+
+.login-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(255,255,255);
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    pointer-events: none;
+    
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label{
+    top: -20px;
+    left: 5px;
+    color:rgb(49, 197, 241);
+    font-size: 12px;
+    transition: .5s;
+}
+
+.login-box form a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:rgb(49, 197, 241);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+
+.login-box a:hover{
+    background: rgb(0, 120, 194);
+    color: rgb(255,255,255);
+    box-shadow: 0 0 5px #71f5fc, 
+                0 0 15px #71f5fc,
+                0 0 40px #71f5fc,
+                0 0 90px #71f5fc;
+}
